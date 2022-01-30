@@ -28,15 +28,15 @@ const Items = mongoose.model("item", itemsSchema);
 const List = mongoose.model("List", itemsList);
 
 const item1 = new Items({
-  name: "smart"
+  name: "run 20 minutes"
 });
 
 const item2 = new Items({
-  name: "phone"
+  name: "eat on time"
 });
 
 const item3 = new Items({
-  name: "chaim"
+  name: "sleep on time"
 });
 
 const itemsArr = [item1,item2,item3];
