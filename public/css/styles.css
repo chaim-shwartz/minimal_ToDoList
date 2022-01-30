@@ -132,4 +132,10 @@ footer {
     font-size: 2vmax;
     
   }
+
+  h1 {
+    color: #fff;
+    padding: 10px;
+    font-size: 4vmax;
+  }
 }
