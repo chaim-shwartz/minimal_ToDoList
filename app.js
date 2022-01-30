@@ -88,8 +88,8 @@ app.post("/", function(req, res){
 });
 
 
-app.post("/delete", function (req,res) {
-  const itemId = req.body.checkbox;
+app.post("/deleteoredit", function (req,res) {
+  const itemId = req.body.delete;
   const listName = req.body.listName;
   if (listName==="Today") {
     Items.findByIdAndRemove(itemId, function (err) {
@@ -108,6 +108,9 @@ app.post("/delete", function (req,res) {
   console.log(req.body)
  
   });
+
+
+
 
 
 app.get("/:thePage", function(req,res){
