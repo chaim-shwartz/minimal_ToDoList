@@ -28,6 +28,7 @@ h1 {
 
 .item {
   min-height: 70px;
+  padding: 5px 10px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #F1F1F1;
@@ -61,7 +62,7 @@ form.item {
 
 button {
   min-height: 50px;
-  width: 50px;
+  width: 55px;
   border-radius: 50%;
   border-color: transparent;
   background-color: #A683E3;
@@ -105,8 +106,8 @@ footer {
   margin: 3px;
   padding: 10px;
   font-size: 1.2vw;
-  border-radius: 25%;
-  width: auto;
+  border-radius: 30px;
+  width: fit-content;
 }
 
 
