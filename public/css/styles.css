@@ -69,6 +69,7 @@ button {
   font-size: 30px;
   /* padding-bottom: 6px; */
   border-width: 0;
+  margin: 2px;
   
 }
 
@@ -118,7 +119,7 @@ footer {
   }
 
   input[type="text"] {
-    font-size: 3vmax;
+    font-size: 2.5vmax;
     width: 90%;
     padding-left: 3%;
   }
@@ -137,5 +138,18 @@ footer {
     color: #fff;
     padding: 10px;
     font-size: 4vmax;
+  }
+
+  button {
+    min-height: 105px;
+    min-width: 105px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #A683E3;
+    color: #fff;
+    font-size: 7vmax;
+    /* padding-bottom: 6px; */
+    border-width: 0;
+    
   }
 }
